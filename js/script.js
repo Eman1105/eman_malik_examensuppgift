@@ -16,4 +16,15 @@ document.addEventListener("keydown",function(event){
 
 }); 
 
-document
+document.addEventListener("keyupp",function(event){
+
+    let bokstav = event.key.toLocaleLowerCase();
+    
+    let knapp = document.getElementById(bokstav);
+    
+    if (knapp) {
+        knapp. classList.remove("tryckt");
+    }
+
+}); 
+
