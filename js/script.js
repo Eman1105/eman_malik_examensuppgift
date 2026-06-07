@@ -27,8 +27,8 @@ document.addEventListener("keyup",function(event){
     }
 });
 
-let bild =
-document.getElementById("bild")
+let bild = document.getElementById("bild")
+console.log(bild);
     // image shows when pressing F
 document.addEventListener("keydown",function(event){
     
