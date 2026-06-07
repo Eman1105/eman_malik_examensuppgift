@@ -34,14 +34,14 @@ document.addEventListener("keydown",function(event){
     
         let bokstav = event.key.toLowerCase();
 
-        if (bokstav== "f"){
+        if (bokstav == "f"){
         bild.style.display = "block";
         }
 
 }); 
 
 //image disappear
-document.addEventListener("keydown",function(event){
+document.addEventListener("keyup",function(event){
     
     let bokstav = event.key.toLowerCase();
 
