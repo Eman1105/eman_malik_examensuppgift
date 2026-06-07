@@ -34,7 +34,7 @@ document.addEventListener("keydown",function(event){
 
         if (bokstav== "f"){
 
-            document.getElementById("bild").style.adddisplay = "block";
+            document.getElementById("bild").style.display = "block";
         }
 
 }); 
