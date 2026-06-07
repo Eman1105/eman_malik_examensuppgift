@@ -44,7 +44,7 @@ document.addEventListener("keydown",function(event){
     
     let bokstav = event.key.toLowerCase();
 
-    if (bokstav== "c"){
+    if (bokstav == "f"){
         let bild =
         document.getElementById("bild");
         bild.style.display = "none";
