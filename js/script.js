@@ -27,7 +27,7 @@ document.addEventListener("keyup",function(event){
     }
 });
 
-    // image 
+    // image shows
 document.addEventListener("keydown",function(event){
     
         let bokstav = event.key.toLowerCase();
@@ -39,3 +39,15 @@ document.addEventListener("keydown",function(event){
 
 }); 
 
+//image disappear
+document.addEventListener("keydown",function(event){
+    
+    let bokstav = event.key.toLowerCase();
+
+    if (bokstav== "c"){
+        let bild =
+        document.getElementById("bild");
+        bild.style.display = "none";
+    }
+
+}); 
