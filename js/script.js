@@ -1,5 +1,5 @@
 //när tangent trycks ner
-console.log("Script loaded");
+
 document.addEventListener("keydown", function(event){
 
     //hämtar vilket tangent som trycks ner
@@ -25,6 +25,17 @@ document.addEventListener("keyup",function(event){
     if (knapp) {
         knapp.classList.remove("tryckt");
     }
+});
+
+    // image 
+document.addEventListener("keydown",function(event){
+    
+        let bokstav = event.key.toLowerCase();
+
+        if (bokstav== "f"){
+
+            document.getElementByld("bild").style.adddisplay = "block";
+        }
 
 }); 
 
