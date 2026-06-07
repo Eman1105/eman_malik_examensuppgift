@@ -27,7 +27,9 @@ document.addEventListener("keyup",function(event){
     }
 });
 
-    // image shows
+let bild =
+document.getElementById("bild")
+    // image shows when pressing F
 document.addEventListener("keydown",function(event){
     
         let bokstav = event.key.toLowerCase();
