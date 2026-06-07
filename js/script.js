@@ -32,9 +32,8 @@ document.addEventListener("keydown",function(event){
     
         let bokstav = event.key.toLowerCase();
 
-        if (bokstav== "f"){
-
-            document.getElementById("bild").style.display = "block";
+        if (bokstav=== "f"){
+        bild.style.display = "block";
         }
 
 }); 
@@ -44,7 +43,7 @@ document.addEventListener("keydown",function(event){
     
     let bokstav = event.key.toLowerCase();
 
-    if (bokstav == "f"){
+    if (bokstav === "f"){
         let bild =
         document.getElementById("bild");
         bild.style.display = "none";
