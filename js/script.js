@@ -1,4 +1,5 @@
 //när tangent trycks ner
+console.log
 document.addEventListener("keydown", function(event){
 
     //hämtar vilket tangent som trycks ner
